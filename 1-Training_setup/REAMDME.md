@@ -3,7 +3,6 @@
 ### Now that you have cloned the repo and have gotten started.  Let's go over the standard instructions that you will complete for each section where you will sync your local git repo with the remote repo and then create a branch for adding your own named folder to each section.  
 ###### (Part of this exercise helps reinforce the git workflows and gives practice collaborating with PRs and merging branches while also giving you a place to keep your class work stored remotely)
 
-
 #### Step 1: Ensure your local version of the repo is up to date with origin/main
 - use `git pull` to make sure your local main matches origin/main
 
@@ -29,11 +28,7 @@
 
 #### Step 5: When ready - submit a pull request to merge your branch with origin/main
 - after your last commit; you will create a pull request
-- this can be done via the GH CLI as shown below or in the GH UI if you have pushed your local branch to the remote branch
+- this can be done via the [GH CLI](https://cli.github.com/) as shown below or in the GH UI if you have pushed your local branch to the remote branch
 - (GH CLI) use `gh pr create -t "a title" -b "body statement"` to create a PR
 - you may be prompted on where to create the PR; make sure you choose our repo
-- 
-
-```bash
-git commit -m "some stuff"
-```
+- Hint: if you are using the GH CLI, you can use the browse command to jump to the GH UI for the repo using: `gh browse` when inside a git folder
