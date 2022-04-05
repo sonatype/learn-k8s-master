@@ -25,10 +25,15 @@
 - rinse and repeat until you are ready to merge your changes with a pull request
 - you can keep your branch locally or push to the remote version as below:
 - use `git push -u origin <branch>` to push and track your local branch to the remote branch
+- once that is done, any local changes can be pushed to remote with a simple `git push`
 
-#### Step 4: When ready - submit a pull request to merge your branch with origin/main
+#### Step 5: When ready - submit a pull request to merge your branch with origin/main
 - after your last commit; you will create a pull request
 - this can be done via the GH CLI as shown below or in the GH UI if you have pushed your local branch to the remote branch
 - (GH CLI) use `gh pr create -t "a title" -b "body statement"` to create a PR
 - you may be prompted on where to create the PR; make sure you choose our repo
 - 
+
+```bash
+git commit -m "some stuff"
+```
