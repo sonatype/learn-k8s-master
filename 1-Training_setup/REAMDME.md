@@ -31,4 +31,4 @@
 - this can be done via the [GH CLI](https://cli.github.com/) as shown below or in the GH UI if you have pushed your local branch to the remote branch
 - (GH CLI) use `gh pr create -t "a title" -b "body statement"` to create a PR
 - you may be prompted on where to create the PR; make sure you choose our repo
-- Hint: if you are using the GH CLI, you can use the browse command to jump to the GH UI for the repo using: `gh browse` when inside a git folder
+- Hint: if you are using the GH CLI, you can use `gh pr view --web` command to jump to the GH UI for the pull request
