@@ -1,6 +1,6 @@
-# WELCOME!!!
+# Section 1: Training Setup
 
-### Now that you have forked a copy of the master repo, cloned the repo to your local machine, and have gotten started; let's go over the standard instructions that you will complete for each section where you will sync your local git repo with the remote repo and then create a branch for adding your own named folder to each section.  
+### WELCOME!!! Now that you have forked a copy of the master repo, cloned the repo to your local machine, and have gotten started; let's go over the standard instructions that you will complete for each section where you will sync your local git repo with the remote repo and then create a branch for adding your own named folder to each section.  
 ###### (Part of this exercise helps reinforce the git workflows and gives practice reviewing and approving PRs and merging branches while also giving you a place to keep your class work stored remotely)
 
 #### Step 1: Ensure your local version of the repo is up to date with origin/main
