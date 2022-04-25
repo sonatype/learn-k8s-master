@@ -1,4 +1,4 @@
-# Section 3: Intro to K8s concepts
+# Section 5: Intro to K8s concepts
 
 ### This section is about familiarizing yourself with Kubernetes concepts. You'll follow along as Nigel Poulton explains very high level container and orchestration concepts. There's a very short demontration using his github psweb repo. That repo is located here:
 
