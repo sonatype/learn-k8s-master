@@ -1,0 +1,3 @@
+# Section 2: Introduction to Docker
+
+This section is about familiarizing or reinforcing what you know about Docker containers, services, and the layered file system.  The section includes a self-check quiz to ensure that your knowledge of Docker is of enough breadth to serve you well in the rest of the course.  Feel free to try the quiz first to see how you do.  With the Docker Primer Article and the use of a good search engine (https://www.duckDuckgo.com FTW!), you should be able to pass the quiz in no time!
