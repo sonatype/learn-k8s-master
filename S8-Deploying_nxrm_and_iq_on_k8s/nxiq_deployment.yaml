@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nexus-iq
+  namespace: learn-k8s-channel
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nexus-iq-server
+  template:
+    metadata:
+      labels:
+        app: nexus-iq-server
+    spec:
+      containers:
+        - name: nexus
+          image: sonatype/nexus-iq-server:latest
+          ports:
+            - name: application
+              containerPort: 8070
+              protocol: TCP
+            - name: admin
+              containerPort: 8071
+              protocol: TCP
+          volumeMounts:
+            - name: nxiq-sonatype-work
+              mountPath: /sonatype-work
+            - name: nxiq-log
+              mountPath: /var/log/nexus-iq-server
+      volumes:
+        - name: nxiq-sonatype-work
+          emptyDir: {}
+        - name: nxiq-log
+          emptyDir: {}
