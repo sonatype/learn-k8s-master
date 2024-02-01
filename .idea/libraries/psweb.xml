@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="psweb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/S5-Intro_to_k8s_concepts/psweb.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

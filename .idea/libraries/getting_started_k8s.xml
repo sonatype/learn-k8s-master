@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="getting-started-k8s">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/S6-Deploying_k8s_services/getting-started-k8s.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

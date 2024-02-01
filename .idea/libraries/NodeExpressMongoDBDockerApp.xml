@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NodeExpressMongoDBDockerApp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/S3-Getting_started_with_docker/NodeExpressMongoDBDockerApp.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

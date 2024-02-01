@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="S7-Kubernetes_the_hard_way">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/S7-Kubernetes_the_hard_way/kubernetes-the-hard-way-aws.zip!/" />
+      <root url="jar://$PROJECT_DIR$/S7-Kubernetes_the_hard_way/kubernetes-the-hard-way.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
